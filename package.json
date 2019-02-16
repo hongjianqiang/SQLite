@@ -1,0 +1,32 @@
+{
+  "name": "sqlite",
+  "version": "1.0.0",
+  "description": "A package that emplace, remove, update, find (CRUD) operations for the SQLite3 API in a Node.js environment.",
+  "main": "SQLite.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongjianqiang/SQLite.git"
+  },
+  "keywords": [
+    "Node.js",
+    "SQLite3",
+    "Database",
+    "CRUD"
+  ],
+  "author": "Hong Jian Qiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hongjianqiang/SQLite/issues"
+  },
+  "homepage": "https://github.com/hongjianqiang/SQLite#readme",
+  "dependencies": {
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
